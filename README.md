@@ -1,16 +1,25 @@
-# DFIR-scripts
-A collection of DFIR scripts for forensic analysis and incident response across Windows, Linux, and macOS.
+# 🛡️ DFIR Toolkit - Lightweight Digital Forensics and Incident Response Suite
 
-# Usage
+A cross-platform, open-source tool for system monitoring, threat detection, and forensic analysis. This toolkit is designed for cybersecurity enthusiasts, incident responders, and forensic analysts who need fast, modular, and efficient solutions to investigate compromised systems.
 
-For Windows USB monitoring ,
-python3 USB_Monitor_Windows.py
+---
 
-For IOC(Indicator of Compromise) scanning ,
-python3 IOC_Scanning.py
+## 🚀 Features
 
-For Windows Bluetooth Monitoring ,
-python3 Bluetooth_Monitor_Windows.py
+- 🔍 **Bluetooth Monitoring**  
+  Monitors the Bluetooth activity in windows.
 
-For Entire Linux File system monitoring ,
-./watcher.sh
+- 🔗 **IOC-Based Scanning**  
+  Match Indicators of Compromise (IOCs) against extracted system data.
+
+- 📦 **File Hash Integrity Checker**  
+  Generate and verify file hashes across systems or drives.
+
+- 💻 **USB Monitoring (Windows)**  
+  Detect new USB insertions and log device metadata.
+
+- 📁 **Anomaly Detection with ML**  
+  Leverage Isolation Forest for real-time anomaly detection in logs.
+
+
+---
